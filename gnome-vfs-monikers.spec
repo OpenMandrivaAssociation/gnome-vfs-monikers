@@ -8,7 +8,7 @@
 Summary:	GNOME virtual file-system monikers
 Name:		%name
 Version: 2.15.3
-Release: %mkrel 1
+Release: %mkrel 2
 License:	LGPL
 Group:		Graphical desktop/GNOME
 URL:		http://www.gnome.org/
