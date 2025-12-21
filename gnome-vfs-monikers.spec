@@ -15,6 +15,11 @@ URL:		https://www.gnome.org/
 Source0:	ftp://ftp.gnome.org/pub/GNOME/sources/%{name}/%{name}-%{version}.tar.bz2
 
 BuildRoot:	%{_tmppath}/%{name}-%{version}-root
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	gawk
 BuildRequires:  perl-XML-Parser
 BuildRequires:	gnome-vfs2-devel >= %req_vfs_version
